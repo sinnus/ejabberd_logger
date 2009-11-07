@@ -1,6 +1,6 @@
 -module(example).
 -export([start/0]).
--include("ejabber_logger.hrl").
+-include("ejabberd_logger.hrl").
 
 start() ->
     ejabberd_loglevel:set(5),

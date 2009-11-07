@@ -33,7 +33,7 @@
 
 -export([set/1, get/0]).
 
--include("ejabberd.hrl").
+-include("ejabberd_logger.hrl").
 
 -define(LOGMODULE, "error_logger").
 
